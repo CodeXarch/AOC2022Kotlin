@@ -1,9 +1,9 @@
 import java.io.File
-import Day7.day7PartOne
-import Day7.day7PartTwo
+import Day9.day9PartOne
+import Day9.day9PartTwo
 
 fun main() {
     var file = File("src/main/resources/input.txt")
     var input = file.readLines()
-    day7PartTwo(input)
+    day9PartTwo(input)
 }
