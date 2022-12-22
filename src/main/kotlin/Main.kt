@@ -5,5 +5,5 @@ import Day9.day9PartTwo
 fun main() {
     var file = File("src/main/resources/input.txt")
     var input = file.readLines()
-    day9PartTwo(input)
+    day10PartTwo(input)
 }
